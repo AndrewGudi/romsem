@@ -1,0 +1,264 @@
+{
+  "cars": [
+    {
+      "name": "x_cars_clusters",
+      "type": "cluster",
+      "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x5/overview/desktop/BMW-MY23-X5-Overview-Hero-Desktop.jpg",
+      "cars": [
+        {
+          "name": "bmw_x1",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x1/overview/desktop/BMW-MY23-X1-Overview-FMA-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_x3",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x3/overview/desktop/BMW-MY23-X3-Overview-FMA-Desktop.jpg",
+          "cars": [
+            {
+              "name": "bmw_x1",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x1/overview/desktop/BMW-MY23-X1-Overview-FMA-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_x3",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x3/overview/desktop/BMW-MY23-X3-Overview-FMA-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_x4",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x4/overview/desktop/BMW-MY23-X4-Overview-FMA-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_x5",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x5/overview/desktop/BMW-MY23-X5-Overview-Hero-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_x6",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x6/overview/desktop/BMW-MY23-X6-Overview-FMA-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_x7",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x7/overview/desktop/BMW-MY23-X7-Overview-Tech-Carousel-04-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_xm",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/xm/xm-plug-in-hybrid/overview/desktop/BMW-MY23-XM-Overview-Tech-Carousel-05-Desktop-v2.jpg",
+              "cars": []
+            }
+          ]
+        },
+        {
+          "name": "bmw_x4",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x4/overview/desktop/BMW-MY23-X4-Overview-FMA-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_x5",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x5/overview/desktop/BMW-MY23-X5-Overview-Hero-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_x6",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x6/overview/desktop/BMW-MY23-X6-Overview-FMA-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_x7",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/x-models/x7/overview/desktop/BMW-MY23-X7-Overview-Tech-Carousel-04-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_xm",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/xm/xm-plug-in-hybrid/overview/desktop/BMW-MY23-XM-Overview-Tech-Carousel-05-Desktop-v2.jpg",
+          "cars": []
+        }
+      ]
+    },
+    {
+      "name": "old_school_series_cars_clusters",
+      "type": "cluster",
+      "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/3-series/sedan/overview/desktop/BMW-MY23-3Series-Overview-FMA-Desktop.jpg",
+      "cars": [
+        {
+          "name": "bmw_series_2",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/2-series/overview/desktop/BMW-MY23-2Series-Overview-Hero-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_series_3",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/3-series/sedan/overview/desktop/BMW-MY23-3Series-Overview-FMA-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_series_4",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/4-series/overview/desktop/BMW-MY23-4Series-ModelsPage-Hero-Desktop.jpg",
+          "cars": [
+            {
+              "name": "bmw_series_2",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/2-series/overview/desktop/BMW-MY23-2Series-Overview-Hero-Desktop.jpg",
+              "cars": [
+                {
+                  "name": "bmw_series_2",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/2-series/overview/desktop/BMW-MY23-2Series-Overview-Hero-Desktop.jpg",
+                  "cars": []
+                },
+                {
+                  "name": "bmw_series_3",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/3-series/sedan/overview/desktop/BMW-MY23-3Series-Overview-FMA-Desktop.jpg",
+                  "cars": []
+                },
+                {
+                  "name": "bmw_series_4",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/4-series/overview/desktop/BMW-MY23-4Series-ModelsPage-Hero-Desktop.jpg",
+                  "cars": []
+                },
+                {
+                  "name": "bmw_series_5",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/5-series/sedan/overview/desktop/BMW-MY23-5Series-Oveview-Hero-Desktop.jpg",
+                  "cars": []
+                },
+                {
+                  "name": "bmw_series_7",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/7-series/sedan/overview/desktop/BMW-MY23-7Series-Overview-Tech-Carousel-05-Desktop-v2.jpg",
+                  "cars": []
+                },
+                {
+                  "name": "bmw_series_8",
+                  "type": "cluster",
+                  "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/8series/myu21/general-overview/tablet/BMW-MY23-8Series-ModelsPage-Hero-Tablet.jpg",
+                  "cars": []
+                }
+              ]
+            },
+            {
+              "name": "bmw_series_3",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/3-series/sedan/overview/desktop/BMW-MY23-3Series-Overview-FMA-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_series_4",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/4-series/overview/desktop/BMW-MY23-4Series-ModelsPage-Hero-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_series_5",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/5-series/sedan/overview/desktop/BMW-MY23-5Series-Oveview-Hero-Desktop.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_series_7",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/7-series/sedan/overview/desktop/BMW-MY23-7Series-Overview-Tech-Carousel-05-Desktop-v2.jpg",
+              "cars": []
+            },
+            {
+              "name": "bmw_series_8",
+              "type": "cluster",
+              "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/8series/myu21/general-overview/tablet/BMW-MY23-8Series-ModelsPage-Hero-Tablet.jpg",
+              "cars": []
+            }
+          ]
+        },
+        {
+          "name": "bmw_series_5",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/5-series/sedan/overview/desktop/BMW-MY23-5Series-Oveview-Hero-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_series_7",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/7-series/sedan/overview/desktop/BMW-MY23-7Series-Overview-Tech-Carousel-05-Desktop-v2.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_series_8",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/8series/myu21/general-overview/tablet/BMW-MY23-8Series-ModelsPage-Hero-Tablet.jpg",
+          "cars": []
+        }
+      ]
+    },
+    {
+      "name": "z_cars_clusters",
+      "type": "cluster",
+      "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/z4/overview/tablet/BMW-MY23-Z4-Overview-FMA-Tablet.jpg",
+      "cars": [
+        {
+          "name": "bmw_z4",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/z4/overview/tablet/BMW-MY23-Z4-Overview-FMA-Tablet.jpg",
+          "cars": []
+        }
+      ]
+    },
+    {
+      "name": "electro_cars_clusters",
+      "type": "cluster",
+      "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/i4/gran-coupe/overview/desktop/BMW-MY23-i4-Overview-FMA-Desktop.jpg",
+      "cars": [
+        {
+          "name": "bmw_i4",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/i4/gran-coupe/overview/desktop/BMW-MY23-i4-Overview-FMA-Desktop.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_i7",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/all-electric/i7/sedan/overview/tablet/BMW-MY23-i7-Overview-FMA-Tablet.jpg",
+          "cars": []
+        },
+        {
+          "name": "bmw_ix",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/ix/overview/desktop/BMW-MY23-iX-Overview-FMA-Desktop.jpg",
+          "cars": []
+        }
+      ]
+    },
+    {
+      "name": "m_power_cars_clusters",
+      "type": "cluster",
+      "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/m-models/m4-coupe/overview/desktop/BMW-MY23-M4-COUPE-Overview-FMA-Desktop.jpg",
+      "cars": [
+        {
+          "name": "bmw_m_power",
+          "type": "cluster",
+          "preview": "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/m-models/m4-coupe/overview/desktop/BMW-MY23-M4-COUPE-Overview-FMA-Desktop.jpg",
+          "cars": []
+        }
+      ]
+    }
+  ]
+}

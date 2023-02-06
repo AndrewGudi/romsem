@@ -1,5 +1,6 @@
 @import "normalize";
-@import "global";
+@import "core/reset";
+@import "core/global";
 
 html, body, #app {
   height: 100%;
