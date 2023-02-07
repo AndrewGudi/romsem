@@ -1,7 +1,7 @@
 <template lang="pug">
 teleport(to="body")
   transition(name="fade")
-    .modal(v-if="isOpen")
+    .modal(v-if="isOpen", :class="modalName")
       .modal--backdrop(@click="close")
       .modal--container
         .modal--wrapper
@@ -16,6 +16,7 @@ import useDisableScroll from "@/features/useDisableScroll";
 const emit = defineEmits(["close", "submit"]);
 const props = defineProps({
   isOpen: { type: Boolean, default: false },
+  modalName: { type: String },
 });
 
 function close() {

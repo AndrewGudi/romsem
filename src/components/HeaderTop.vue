@@ -4,27 +4,32 @@
     a.logo(:href="'/'")
     .header--nav-global
       ul.header--nav-global-links
-        li.header--nav-global-link {{ "Models" }}
+        li.header--nav-global-link(@click="openModal('car-models')") {{ "Models" }}
         li.header--nav-global-link {{ "Build Your Own" }}
         li.header--nav-global-link {{ "Shopping" }}
         li.header--nav-global-link {{ "BMW Certified" }}
         li.header--nav-global-link {{ "Owners" }}
 </template>
 
-<script lang="ts" setup></script>
+<script setup lang="ts">
+import { ref } from "vue";
+
+const isOpen = ref("" as string | undefined);
+const openModal = (name?: string | undefined) => {
+  isOpen.value = name;
+};
+</script>
 
 <style scoped lang="scss">
 .header {
-  width: 100%;
   height: 100px;
+  padding: 0 50px;
   &--nav {
-    position: absolute;
     display: flex;
     align-items: center;
     z-index: 2;
     height: 100px;
     width: 100%;
-    padding: 0 56px;
     background: white;
     .logo {
       cursor: pointer;

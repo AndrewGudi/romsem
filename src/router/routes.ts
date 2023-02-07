@@ -12,8 +12,8 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "landing" */ "../views/LandingView.vue"),
     children: [
       {
-        path: ":foodPages*",
-        name: "FoodPage",
+        path: ":cars*",
+        name: "Cars",
         component: () =>
           import(/* webpackChunkName: "cluster" */ "@/views/LandingView.vue"),
       },
