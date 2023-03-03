@@ -188,6 +188,11 @@ const itemStyles = (key: number) => {
     &--name {
       color: white;
     }
+    &:hover {
+      .item-block--car-preview {
+        background-size: 107%;
+      }
+    }
   }
   &--car-preview {
     width: 100%;

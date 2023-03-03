@@ -33,7 +33,14 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, defineEmits, defineProps, onMounted, reactive } from "vue";
+import {
+  computed,
+  defineEmits,
+  defineProps,
+  onMounted,
+  reactive,
+  ref,
+} from "vue";
 import { datePickerFunctions } from "@/composables/datePickerFunctions";
 import { DataPickerDate, DataPickerRange } from "@/types/dataPicker";
 
@@ -68,8 +75,120 @@ const currentDateRange = computed(() => {
   return props.dateRange ? props.dateRange : dateRange;
 });
 
-const { days, months, isUseRange, useDataRange, datePrev, dateNext } =
-  datePickerFunctions(emit, currentDateRange.value);
+const days: string[] = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+const months: string[] = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+const dateFrom = computed(() => {
+  return new Date(
+    dateRange.from.year,
+    dateRange.from.month,
+    dateRange.from.day
+  );
+});
+
+const dateTo = computed(() => {
+  return new Date(dateRange.to.year, dateRange.to.month, dateRange.to.day);
+});
+
+const isFrom = ref(true);
+const useDataRange = (day: number, currentDate: DataPickerDate) => {
+  if (dateRange.from.year && dateRange.to.year) {
+    dateRange.from = { ...initialState };
+    dateRange.to = { ...initialState };
+  }
+  if (!dateRange.from.year) {
+    dateRange.from.year = currentDate.year;
+    dateRange.from.month = currentDate.month;
+    dateRange.from.day = day;
+    dateRange.to = { ...initialState };
+  } else {
+    dateRange.to.year = currentDate.year;
+    dateRange.to.month = currentDate.month;
+    dateRange.to.day = day;
+  }
+  const copyFrom = { ...dateRange.from };
+  const copyTo = { ...dateRange.to };
+
+  if (
+    dateRange.from.day &&
+    dateRange.to.day &&
+    dateFrom.value.valueOf() < dateTo.value.valueOf()
+  ) {
+    dateRange.from = copyTo;
+    dateRange.to = copyFrom;
+  }
+  isFrom.value = !isFrom.value;
+};
+
+const forDay = (day: number, currentDate: DataPickerDate) => {
+  return new Date(currentDate.year, currentDate.month, day);
+};
+
+const isUseRange = (day: number, currentDate: DataPickerDate) => {
+  const classes: string[] = [];
+  if (
+    dateRange.from.day &&
+    dateRange.to.day &&
+    dateFrom.value.valueOf() >= forDay(day, currentDate).valueOf() &&
+    forDay(day, currentDate).valueOf() >= dateTo.value.valueOf()
+  ) {
+    classes.push("active");
+    if (forDay(day, currentDate).valueOf() === dateFrom.value.valueOf()) {
+      classes.push("to");
+    }
+    if (forDay(day, currentDate).valueOf() === dateTo.value.valueOf()) {
+      classes.push("from");
+    }
+  }
+  if (
+    forDay(day, currentDate).valueOf() === dateFrom.value.valueOf() ||
+    forDay(day, currentDate).valueOf() === dateTo.value.valueOf()
+  ) {
+    classes.push("ball");
+  }
+  return classes;
+};
+
+const datePrev = (currentDate: DataPickerDate) => {
+  if (!currentDate.month) {
+    currentDate.month = 11;
+    currentDate.year -= 1;
+  } else {
+    currentDate.month -= 1;
+  }
+  emit("updatePrev");
+};
+
+const dateNext = (currentDate: DataPickerDate) => {
+  if (currentDate.month >= 11) {
+    currentDate.month = 0;
+    currentDate.year += 1;
+  } else {
+    currentDate.month += 1;
+  }
+  emit("updateNext");
+};
 
 const currentData = reactive({ ...initialState });
 const currentDate = computed(() => {

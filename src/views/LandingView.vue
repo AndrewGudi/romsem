@@ -67,7 +67,6 @@ onMounted(() => {
   clusterStore.getDataOrigin().then((res) => {
     dataSet.value = res;
     pushActiveClusterToStore(res);
-    console.log(res);
     recalculate();
     watch(
       () => columnCount.value,
